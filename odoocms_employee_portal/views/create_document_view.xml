@@ -1,0 +1,57 @@
+<!--<?xml version="1.0" encoding="UTF-8" ?>-->
+
+<!--<odoo>-->
+<!--    <data>-->
+
+<!--    <record id="view_facility_building_tree_rpt" model="ir.ui.view">-->
+<!--        <field name="name">adjudication.elements.tree</field>-->
+<!--        <field name="model">adjudication.elements</field>-->
+<!--        <field name="arch" type="xml">-->
+<!--            <tree string="Building">-->
+<!--                <field name="name"/>-->
+<!--            </tree>-->
+<!--        </field>-->
+<!--    </record>-->
+
+<!--    <record id="view_acility_building_form_rpt" model="ir.ui.view">-->
+<!--        <field name="name">adjudication.elements.form</field>-->
+<!--        <field name="model">adjudication.elements</field>-->
+<!--        <field name="arch" type="xml">-->
+<!--            <form string="Building">-->
+<!--                <group>-->
+<!--                    <group>-->
+<!--                        <field name="name"/>-->
+<!--                    </group>-->
+<!--                </group>-->
+<!--            </form>-->
+<!--        </field>-->
+<!--    </record>-->
+
+<!--    <record id="open_building_view_action_rpt" model="ir.actions.act_window">-->
+<!--        <field name="name">Building</field>-->
+<!--        <field name="res_model">adjudication.elements</field>-->
+<!--        <field name="view_mode">tree,form</field>-->
+<!--        <field name="help" type="html">-->
+<!--            <p class="oe_view_nocontent_create">-->
+<!--                Create the First Building here.-->
+<!--            </p>-->
+<!--        </field>-->
+<!--    </record>-->
+
+
+<!--    &lt;!&ndash;  Menu Item &ndash;&gt;-->
+<!--    <menuitem-->
+<!--            id="menu_create_document_new"-->
+<!--            name="Create Document" groups="base.group_user" sequence="1"/>-->
+
+
+<!--    <menuitem-->
+<!--            id="menu_create_document_new"-->
+<!--            name="Create Document"-->
+<!--            parent="menu_create_document_new"-->
+<!--            action="open_building_view_action_rpt"-->
+<!--            sequence="2" groups="base.group_user"/>-->
+<!--    </data>-->
+
+
+<!--</odoo>-->
